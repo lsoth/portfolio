@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leone's Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <span class="navbar-brand mb-0 h1">Professional Portfolio</span>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,15 +28,17 @@
                     <a class="nav-link active" href="#contact-me">Contact Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#resume">Resume</a>
+                    <a class="nav-link active" href="https://docs.google.com/document/d/15DBkYgrri2ZaI9WgR5nN37yhTBfYFLZ3TnarEcQ2yWo/edit?usp=sharing" target="blank">Resume</a>
                 </li>
             </ul>
           </div>
         </div>
     </nav>
 
+    <br>
+
     <main class="container">
-    <div id="about-me" class="container-fluid d-flex bg-dark text-light p-5">
+    <div id="about-me" class="container-fluid d-flex text-light p-5">
       <img src="./assets/imgs/personalphoto.jpeg" class="w-50">
       <div class="container bg-dark p-5">
             <h1 class="display-4">About Me</h1>
@@ -47,9 +49,8 @@
     <br>
 
     <div id = "work" class="container-fluid bg-dark text-light p-5">
-        <!-- <div class="container bg-dark p-5"> -->
-            <h1 class="display-4">My Work</h1>
-        <!-- </div> -->
+            <h3 class="display-4">My Work</h3>
+
     </div>
     <div id="projects" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -59,23 +60,23 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="http://placekitten.com/200/300" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Currency Compare</h5>
+            <img src="./assets/imgs/ccom.png" class="d-block w-100" alt="screenshot of app">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5><a href="https://github.com/lsoth/crypto-compare" target="blank">Currency Compare</a></h5>
               <p>This website allows a user to view trending crypto currencies and view the market data of over 8000 different cryptos and over 30 standard currencies.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="http://placekitten.com/200/300" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Work Day Scheduler</h5>
+            <img src="./assets/imgs/wkday.png" class="d-block w-100" alt="screenshot of app">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5><a href="https://github.com/lsoth/workdayscheduler" target="blank">Work Day Scheduler</a></h5>
               <p>This app can be used to plan your standard 9 to 5 workday!</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="http://placekitten.com/200/300" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Password Generator</h5>
+            <img src="./assets/imgs/pwgen.png" class="d-block w-100" alt="screenshot of app">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5><a href="https://github.com/lsoth/03pwgen" target="blank">Password Generator</a></h5>
               <p>This application generates a secure password given different criteria</p>
             </div>
           </div>
@@ -93,22 +94,18 @@
       <br>
 
       <div id="contact-me" class="container-fluid bg-dark text-light p-5">
-        <div class="container bg-dark p-5">
-            <ul> 
-            <h1 class="display-4">Contact Me</h1>
-            <li>
-                <a href="mailto:leone.soth@gmail.com">Email Me</a>
-            </li>
-            <li>
-                <a href="">206.225.4310</a>
-            </li>
-            <li>
-                <a href="https://github.com/lsoth" target="blank">GitHub</a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/leone.soth" target="blank">Facebook</a>
-            </li>
-            </ul>
+        <div class="container p-5 d-flex">
+   
+            <h3 class="display-4">Contact Me</h3>
+              
+                <a href="mailto:leone.soth@gmail.com">||Email Me||</a>
+              
+                <a href="">||206.225.4310||</a>
+              
+                <a href="https://github.com/lsoth" target="blank">||GitHub||</a>
+              
+                <a href="https://www.facebook.com/leone.soth" target="blank">||Facebook||</a>
+
 
         </div>
     </div>
@@ -117,7 +114,6 @@
     <br>
     <footer>
         <p>Created By Leone Soth</p>
-        <p>Styled with CSS Bootstrap 5.0</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
